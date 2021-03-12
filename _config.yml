@@ -21,8 +21,8 @@
 title: Sein Lee
 email: sein.lee@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Sein Lee's personal blog
-baseurl: "/sein" # the subpath of your site, e.g. /blog
+  Welcome to my blog! Check out my projects on my blog :)
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "seinnlee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: seinnlee
 github_username:  seinnlee
@@ -31,6 +31,9 @@ github_username:  seinnlee
 theme: minima
 plugins:
   - jekyll-feed
+
+
+
 
 defaults:
   -
@@ -42,7 +45,7 @@ defaults:
   -
     scope:
       path: "projects"
-      type: "post" # previously `page` in Jekyll 2.2.
+      type: "projects" # previously `page` in Jekyll 2.2.
     values:
       layout: "project" # overrides previous default layout
       author: "Sein Lee"
