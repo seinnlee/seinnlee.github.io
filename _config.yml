@@ -32,6 +32,8 @@ author: Sein Lee
 copyright: "Sein Lee"
 linkedin_username: sein-lee
 
+
+
 # Build settings
 
 # Removed minima theme as it is now a regular theme
@@ -42,20 +44,6 @@ plugins:
 
 
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: "projects"
-      type: "projects" # previously `page` in Jekyll 2.2.
-    values:
-      layout: "project" # overrides previous default layout
-      author: "Sein Lee"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
