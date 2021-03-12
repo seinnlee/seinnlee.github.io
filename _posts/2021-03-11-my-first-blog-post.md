@@ -2,6 +2,9 @@
 layout: "post"
 categories: posts
 # permalink: /:categories/:title
+
 ---
 
-This is my first blog post
+Hello World!
+
+Welcome to my blog. I am building my first website with Jekyll.

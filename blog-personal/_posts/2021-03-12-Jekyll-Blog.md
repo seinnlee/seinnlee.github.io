@@ -4,4 +4,4 @@ category: blog
 # permalink: /:categories/:title
 ---
 
-welcome to my personal blog
+Thanks to Jekyll, I was able to create this awesome website at home!
