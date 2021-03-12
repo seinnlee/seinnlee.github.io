@@ -1,7 +1,7 @@
 ---
 layout: "post"
 categories: posts
-permalink: /:categories/:title
+# permalink: /:categories/:title
 ---
 
 This is my first blog post
