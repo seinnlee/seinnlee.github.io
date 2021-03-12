@@ -1,6 +1,6 @@
 ---
-layout: "page"
-title: Sein's Projects
+layout: page
+title: Projects
 ---
 
 My projects
