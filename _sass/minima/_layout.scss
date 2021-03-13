@@ -285,12 +285,30 @@
 }
 
 .page-col-1 {
-  width: 300px;
+  width: 30%;
 }
 
 .page-col-2 {
-  width: 90%;
-  /*
-  width: -webkit-cal c(100% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));*/
+  width: -webkit-cal c(70% - (#{$spacing-unit} / 2));
+  width:         calc(70% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+  .page-col-1 {
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
+  }
+  .page-col-2 {
+    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+    width:         calc(70% - (#{$spacing-unit} / 2));
+  }
+
+}
+
+@include media-query($on-palm) {
+  .page-col {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
 }
