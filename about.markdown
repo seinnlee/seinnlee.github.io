@@ -11,5 +11,5 @@ image: /assets/images/profile-image.jpg
 Welcome to my website! I am a Computer Science student at the University of British Columbia ([UBC](https://www.ubc.ca)). 
 
 
-* #### Check out my **[Github](https://www.github.com/seinnlee)**
-* #### Connect with me on **[Linkedin](https://www.linkedin.com/in/sein-lee)**
+#### Check out my **_[Github](https://www.github.com/seinnlee)_**
+#### Connect with me on **_[Linkedin](https://www.linkedin.com/in/sein-lee)_**
