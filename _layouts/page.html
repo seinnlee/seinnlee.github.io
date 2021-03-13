@@ -8,7 +8,22 @@ layout: default
   </header>
 
   <div class="post-content">
-    {{ content }}
+    {%- if page.image -%}
+    <div class="page-col-wrapper">
+      <div class="page-col page-col-1">
+        <img src="{{- page.image | relative_url -}}" alt="" class="profile-image">
+      </div>
+
+      <div class="page-col page-col-2"></div>
+        {{ content }}
+      </div>
+    </div>
+
+      {%- else -%}
+        {{ content }}
+    {%- endif -%}
   </div>
+
+  
 
 </article>

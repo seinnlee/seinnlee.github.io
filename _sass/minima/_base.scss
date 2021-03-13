@@ -252,3 +252,14 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+.column {
+  float: left;
+  width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
