@@ -1,6 +1,7 @@
 ---
 layout: "post"
-categories: posts
+category: blog
+title: "My first blog post"
 # permalink: /:categories/:title
 
 ---
