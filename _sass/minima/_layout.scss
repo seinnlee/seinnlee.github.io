@@ -203,10 +203,17 @@
   color: $grey-color;
 }
 
+.post-category {
+  text-transform: capitalize;
+  color: $grey-color-dark;
+  @include relative-font-size(1.2);
+}
+
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.4);
 }
+
 
 
 
@@ -272,7 +279,7 @@
  */
 
 
-.page-col-wrapper {
+.page-col-wapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
